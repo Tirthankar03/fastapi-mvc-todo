@@ -1,0 +1,12 @@
+[project]
+name = "supabase-tryouts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "supabase>=2.15.0",
+    "uvicorn>=0.34.0",
+]
