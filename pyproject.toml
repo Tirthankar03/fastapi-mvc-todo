@@ -5,8 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "docling>=2.30.0",
     "dotenv>=0.9.9",
     "fastapi>=0.115.12",
+    "google>=3.0.0",
+    "google-genai>=1.10.0",
+    "google-generativeai>=0.8.4",
+    "pymupdf>=1.25.5",
+    "python-multipart>=0.0.20",
+    "reportlab>=4.4.0",
     "supabase>=2.15.0",
     "uvicorn>=0.34.0",
 ]
